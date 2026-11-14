@@ -1,0 +1,7 @@
+---
+---
+@import "minima";
+
+/* 隐藏首页英文的 RSS 订阅行（订阅源 feed.xml 仍保留），以及页脚与顶部重复的站名 */
+.rss-subscribe,
+.footer-heading { display: none; }
