@@ -5,3 +5,8 @@
 /* 隐藏首页英文的 RSS 订阅行（订阅源 feed.xml 仍保留），以及页脚与顶部重复的站名 */
 .rss-subscribe,
 .footer-heading { display: none; }
+
+/* 首页字号统一：“随笔”与“论文”两个栏目标题同大；随笔文章标题与论文条目同为正文字号 */
+.page-content h2,
+.post-list-heading { font-size: 24px; }
+.post-list .post-link { font-size: 16px; }
