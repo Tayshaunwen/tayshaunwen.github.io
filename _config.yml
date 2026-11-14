@@ -1,0 +1,16 @@
+# GitHub Pages 自动用 Jekyll 构建本站，无需本地安装。
+title: Tayshaun Wen
+description: 加密货币量化交易员的研究笔记：期权、DeFi 与链上风险。
+author: Tayshaun Wen
+lang: zh-CN
+url: "https://tayshaunwen.github.io"
+baseurl: ""
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+github_username: Tayshaunwen
+minima:
+  date_format: "%Y-%m-%d"
+header_pages:
+  - about.md
